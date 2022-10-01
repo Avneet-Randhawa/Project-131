@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 115vh;
+    background-image: url("bcak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+    font-size: 23px;
+    box-shadow: inset 2px 2px 15px white;
+}
+
+.back{
+    float: right;
+    margin-right: 10px;
+    font-size: 20px;
+    box-shadow: inset 2px 2px 15px white;
+}
+
+#statusav{
+    font-size: 18px;
+}
+#infoav{
+    font-size: 18px;
+}
+canvas{
+    box-shadow: 5px 5px 25px white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
